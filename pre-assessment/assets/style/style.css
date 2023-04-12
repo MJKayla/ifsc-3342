@@ -1,0 +1,105 @@
+/*Sets all margin and padding to 0 */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	text-align: center;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-image: url("/pre-assessment/assets/img/tile.jpg");
+	background-repeat: repeat-x;
+	background-color: #171717;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+#container {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	background-color: #FFF;
+	margin-top: 20px;
+	border: 1px solid #CCC;
+}
+.img-right {
+	float: right;
+	margin: 20px 0px 20px 20px;
+	border: 1px solid #c0c0c0;
+	padding: 5px;
+  }
+
+.replace-name a {
+    display: block;
+	width:800px;
+	height: 160px;
+	background: url("../img/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+  }
+#nav {
+	background-color: #000;
+}
+#nav ul {
+	list-style-type: none;
+	margin-left: 10px;
+}
+#nav ul li {
+	display: inline;
+	height: 35px;
+	line-height: 35px;
+}
+#nav ul li a {
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 18px;
+}
+#nav ul li a:link, #nav ul li a:visited {
+	text-decoration: none;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	color: #FFF;
+}
+#nav ul li a:hover {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+#content {
+	margin: 20px;
+}
+#content p {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+#footer {
+	background-color: #16c7ea;
+	color: #FFF;
+	height: 25px;
+}
+#footer h6 {
+	font-size: 12px;
+	line-height: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+ .alert{
+	background-color: rgb(116, 108, 115);
+	color:rgb(29, 51, 135);
+ }
+  #content h2 {
+	color: rgb(59, 38, 38);
+ }
+  #content h3 {
+	color: rgb(148, 145, 144);
+ }
+  #content h4 {
+	color: purple;
+ }
+ #content a:hover{
+color: rgb(245, 11, 11);
+ }

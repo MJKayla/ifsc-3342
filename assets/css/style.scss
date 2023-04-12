@@ -1,0 +1,9 @@
+$base-color: cornflowerblue;
+$nav-color: red;
+body{
+   background-color: $base-color; 
+        
+}
+nav a{
+    color: $nav-color;
+}

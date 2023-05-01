@@ -1,1 +1,33 @@
-<font-family> 'Rubik Pixels', cursive;
+
+body{
+
+  @media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
+font-family: 'Rubik Pixels', cursive;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 247, 19);
+  }
+  
+  li {
+    float: middle;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 184, 5);
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #ff1010;
+  }
+  background-image: url(img/DBZhistory.jpg);

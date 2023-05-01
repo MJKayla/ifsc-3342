@@ -1,18 +1,23 @@
-
+header{
+  background-image: url(../../img/DBZhistory.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50%;
+}
 body{
-
   @media screen and (min-width: 480px) {
     #leftsidebar {width: 200px; float: left;}
     #main {margin-left: 216px;}
   }
 font-family: 'Rubik Pixels', cursive;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(255, 247, 19);
+    background-color: rgb(17, 17, 16);
   }
   
   li {
@@ -30,4 +35,3 @@ ul {
   li a:hover {
     background-color: #ff1010;
   }
-  background-image: url(img/DBZhistory.jpg);

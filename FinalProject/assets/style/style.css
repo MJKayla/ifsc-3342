@@ -1,8 +1,8 @@
-header{
+header.about{
     background-image: url(../../img/DBZhistory.jpg);
     background-size: cover;
     background-position: center;
-    height: 50%;
+    height: 600px;
 }
 
 

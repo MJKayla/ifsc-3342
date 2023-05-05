@@ -5,16 +5,10 @@ header{
     height: 50%;
 }
 
-ul {
-  list-style-type: none;
-  margin: 50%;
-  padding: 75%;
-}
+
+ 
 body{
-  @media screen and (min-width: 480px) {
-    #leftsidebar {width: 200px; float: left;}
-    #main {margin-left: 216px;}
-  }
+  
 font-family: 'Rubik Pixels', cursive;
 
 }
@@ -41,4 +35,8 @@ ul {
   
   li a:hover {
     background-color: #ff1010;
+  }
+  @media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
   }
